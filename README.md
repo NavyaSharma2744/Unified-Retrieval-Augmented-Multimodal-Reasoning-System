@@ -143,20 +143,20 @@ src/
 
 ## Evaluation
 Evaluate the system using:
--Precision@k
--Recall@k
--MRR / nDCG
--Answer correctness
--Faithfulness
--Latency
+- Precision@k
+- Recall@k
+- MRR / nDCG
+- Answer correctness
+- Faithfulness
+- Latency
 
 ---
 
 ## Future Work
--table-aware reasoning
--advanced multimodal reranking
--multi-hop reasoning
--improved KG reasoning
+- table-aware reasoning
+- advanced multimodal reranking
+- multi-hop reasoning
+- improved KG reasoning
 
 ---
 
@@ -190,7 +190,7 @@ Step 5: Launch app
 ```bash
 streamlit run src/app/streamlit_app.py
 
----
+----------------
 
 Author
 Navya
