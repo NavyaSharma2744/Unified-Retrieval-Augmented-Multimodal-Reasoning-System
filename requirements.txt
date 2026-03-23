@@ -1,1 +1,34 @@
+# Core
+python-dotenv
+tqdm
+numpy
+pandas
 
+# NLP & Embeddings
+sentence-transformers
+transformers
+torch
+scikit-learn
+
+# Multimodal
+Pillow
+opencv-python
+
+# Retrieval
+faiss-cpu
+chromadb
+
+# PDF Processing
+pymupdf
+pdfplumber
+
+# Knowledge Graph
+spacy
+networkx
+
+# App
+streamlit
+
+# Utils
+pyyaml
+loguru
