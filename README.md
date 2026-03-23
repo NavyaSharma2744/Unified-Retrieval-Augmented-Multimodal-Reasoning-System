@@ -129,16 +129,40 @@ This project is designed as a **single modular system** that can be adapted for 
 
 ## Project Structure
 
-src/
-├── ingestion/
-├── embeddings/
-├── retrieval/
-├── reasoning/
-├── kg/
-├── evaluation/
-├── pipelines/
-└── app/
+## Project Structure
 
+```text
+unified-retrieval-augmented-multimodal-reasoning-system/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── interim/
+│
+├── notebooks/
+│
+├── configs/
+│
+├── src/
+│   ├── ingestion/
+│   ├── embeddings/
+│   ├── retrieval/
+│   ├── reasoning/
+│   ├── kg/
+│   ├── evaluation/
+│   ├── pipelines/
+│   └── app/
+│
+├── scripts/
+├── tests/
+├── results/
+├── docs/
+│
+├── README.md
+├── requirements.txt
+├── setup.py
+└── LICENSE
+```
 ---
 
 ## Evaluation
@@ -189,8 +213,9 @@ python scripts/run_demo.py
 Step 5: Launch app
 ```bash
 streamlit run src/app/streamlit_app.py
+```
 
-----------------
+---
 
-Author
+## Author
 Navya
