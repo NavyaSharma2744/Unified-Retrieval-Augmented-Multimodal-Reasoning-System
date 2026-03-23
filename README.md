@@ -112,23 +112,6 @@ The system:
 
 This project is designed as a **single modular system** that can be adapted for multiple research domains.
 
-### Multimodal Reasoning (IISc)
-- image-text understanding
-- cross-modal retrieval
-- visual grounding
-- figure-based QA
-
-### RAG Evaluation (IISER Bhopal)
-- semantic search
-- model comparison (GPT, LLaMA, Mistral)
-- evaluation metrics (accuracy, latency, faithfulness)
-
-### Knowledge Graph + Explainability (IIT Palakkad)
-- entity and relation extraction
-- graph-based retrieval
-- explainable reasoning
-- hybrid KG + vector search
-
 ---
 
 ## Tech Stack
@@ -188,6 +171,8 @@ Step 5: Launch app
 ```bash
 streamlit run src/app/streamlit_app.py
 
+---
+
 ## Evaluation
 Evaluate the system using:
 -Precision@k
@@ -197,11 +182,15 @@ Evaluate the system using:
 -Faithfulness
 -Latency
 
+---
+
 ## Future Work
 -table-aware reasoning
 -advanced multimodal reranking
 -multi-hop reasoning
 -improved KG reasoning
+
+---
 
 Author
 Navya
