@@ -1,1 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Data
+data/raw/
+data/processed/
+data/interim/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pt
+*.bin
+
+# Streamlit cache
+.streamlit/
+
+# FAISS index
+*.index
+
+# Secrets
+.env
